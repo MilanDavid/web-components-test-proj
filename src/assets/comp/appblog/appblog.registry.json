@@ -1,0 +1,47 @@
+{
+  "namespace": "appblog",
+  "fsNamespace": "appblog",
+  "loader": "../appblog.js",
+  "core": "appblog.hvuuzdeq.js",
+  "corePolyfilled": "appblog.4tf8rkz9.js",
+  "components": {
+    "app-blog": {
+      "bundleIds": {
+        "$": "y9rygfil"
+      },
+      "encapsulation": "shadow"
+    },
+    "blog-list": {
+      "bundleIds": {
+        "$": "iwqpffyu"
+      },
+      "encapsulation": "shadow"
+    },
+    "blog-post": {
+      "bundleIds": {
+        "$": "jrwszmxb"
+      },
+      "encapsulation": "shadow"
+    },
+    "stencil-route": {
+      "bundleIds": {
+        "$": "y9rygfil"
+      }
+    },
+    "stencil-route-link": {
+      "bundleIds": {
+        "$": "iwqpffyu"
+      }
+    },
+    "stencil-route-switch": {
+      "bundleIds": {
+        "$": "y9rygfil"
+      }
+    },
+    "stencil-router": {
+      "bundleIds": {
+        "$": "y9rygfil"
+      }
+    }
+  }
+}

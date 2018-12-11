@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Stencil Web Components - Test Proj</title>
+  <meta name="Description" content="Welcome to the Stencil App Starter. You can use this starter to build entire apps all with web components using Stencil!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#16161d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="x-ua-compatible" content="IE=Edge"/>
+
+  <link href="/build/app.css" rel="stylesheet">
+  <script src="/build/app.js"></script>
+
+  <link rel="apple-touch-icon" href="/assets/icon/icon.png">
+  <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+  
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBPSmh4HveJ1AK0FRlpiZ1BXvS-khftRCE",
+      authDomain: "web-components-website.firebaseapp.com",
+      databaseURL: "https://web-components-website.firebaseio.com",
+      projectId: "web-components-website",
+      storageBucket: "web-components-website.appspot.com",
+      messagingSenderId: "3001823110"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="assets/comp/appblog.js"></script>
+</head>
+<body>
+
+  <app-root></app-root>
+  <app-blog></app-blog>
+</body>
+</html>
